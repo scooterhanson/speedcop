@@ -6,8 +6,11 @@ I got tired of my ISP pretending there was no slowdown when I could tell there w
 This requires the https://www.speedtest.net/ command line tool for the actual speed test, Sqlite3 to record data, and Twilio for the notifications.
 
 Run speed.py to record up speed, down speed, ping latency, and jitter.
+
 Run getspeedresults.py to see the latest results.
+
 Run speedcop.py to check the last 4 down-speed results; if the average is lower than the threshold, a Twilio notification will be sent.
+
 Run speedavg.py to get an average over the last day's worth of results and send a Twilio notification.
 
 Written in Python3
