@@ -3,7 +3,7 @@ Monitoring ISP speeds because they won't.
 
 I got tired of my ISP pretending there was no slowdown when I could tell there was.  Here is a collection of tools I use on cron jobs to record speeds and let me know if something isn't right.  Then I can make sure the ISP is aware right away.
 
-This requires Sqlite3 to record data and Twilio for the notifications.
+This requires the https://www.speedtest.net/ command line tool for the actual speed test, Sqlite3 to record data, and Twilio for the notifications.
 
 Run speed.py to record up speed, down speed, ping latency, and jitter.
 Run getspeedresults.py to see the latest results.
