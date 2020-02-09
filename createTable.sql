@@ -1,0 +1,1 @@
+CREATE TABLE speedtestresults (id INTEGER PRIMARY KEY AUTOINCREMENT, up_speed NUMERIC, down_speed NUMERIC, ping_latency NUMERIC, ping_jitter NUMERIC, Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP);
